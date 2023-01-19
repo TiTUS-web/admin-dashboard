@@ -6,6 +6,7 @@ import Topbar from './components/Topbar';
 import Sidebar from "./components/Sidebar";
 
 import Dashboard from "./modules/dashboard/index";
+import Team from "./modules/team/index";
 
 function App() {
     const [theme, colorMode] = useMode();
@@ -20,6 +21,7 @@ function App() {
                 <Topbar />
                 <Routes>
                   <Route path="/" element={<Dashboard />} />
+                  <Route path="/team" element={<Team />} />
                 </Routes>
               </main>
           </div>
