@@ -8,6 +8,7 @@ import Sidebar from "./components/Sidebar";
 import Dashboard from "./modules/dashboard/index";
 import Team from "./modules/team/index";
 import Contacts from "./modules/contacts/index";
+import Invoices from "./modules/invoices/index";
 
 function App() {
     const [theme, colorMode] = useMode();
@@ -24,6 +25,7 @@ function App() {
                   <Route path="/" element={<Dashboard />} />
                   <Route path="/team" element={<Team />} />
                   <Route path="/contacts" element={<Contacts />} />
+                  <Route path="/invoices" element={<Invoices />} />
                 </Routes>
               </main>
           </div>
