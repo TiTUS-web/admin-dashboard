@@ -9,6 +9,7 @@ import Dashboard from "./modules/dashboard/index";
 import Team from "./modules/team/index";
 import Contacts from "./modules/contacts/index";
 import Invoices from "./modules/invoices/index";
+import Profile from "./modules/profile/index";
 
 function App() {
     const [theme, colorMode] = useMode();
@@ -26,6 +27,7 @@ function App() {
                   <Route path="/team" element={<Team />} />
                   <Route path="/contacts" element={<Contacts />} />
                   <Route path="/invoices" element={<Invoices />} />
+                  <Route path="/profile" element={<Profile />} />
                 </Routes>
               </main>
           </div>
