@@ -10,6 +10,7 @@ import Team from "./modules/team/index";
 import Contacts from "./modules/contacts/index";
 import Invoices from "./modules/invoices/index";
 import Profile from "./modules/profile/index";
+import Calendar from "./modules/calendar/index";
 
 function App() {
     const [theme, colorMode] = useMode();
@@ -28,6 +29,7 @@ function App() {
                   <Route path="/contacts" element={<Contacts />} />
                   <Route path="/invoices" element={<Invoices />} />
                   <Route path="/profile" element={<Profile />} />
+                  <Route path="/calendar" element={<Calendar />} />
                 </Routes>
               </main>
           </div>
