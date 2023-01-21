@@ -26,12 +26,12 @@ function App() {
                 <Topbar />
                 <Routes>
                   <Route path="/" element={<Dashboard />} />
-                  <Route path="/team" element={<Team />} />
-                  <Route path="/contacts" element={<Contacts />} />
-                  <Route path="/invoices" element={<Invoices />} />
-                  <Route path="/profile" element={<Profile />} />
-                  <Route path="/calendar" element={<Calendar />} />
-                  <Route path="/faq" element={<FAQ />} />
+                  <Route path="/data/team" element={<Team />} />
+                  <Route path="/data/contacts" element={<Contacts />} />
+                  <Route path="/data/invoices" element={<Invoices />} />
+                  <Route path="/pages/profile" element={<Profile />} />
+                  <Route path="/pages/calendar" element={<Calendar />} />
+                  <Route path="/pages/faq" element={<FAQ />} />
                 </Routes>
               </main>
           </div>
