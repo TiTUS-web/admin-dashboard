@@ -13,6 +13,7 @@ import Profile from "./modules/profile/index";
 import Calendar from "./modules/calendar/index";
 import FAQ from "./modules/faq/index";
 import Bar from "./modules/charts/bar/index";
+import Pie from "./modules/charts/pie/index";
 import Line from "./modules/charts/line/index";
 import Geography from "./modules/charts/geography/index";
 
@@ -36,6 +37,7 @@ function App() {
                   <Route path="/pages/calendar" element={<Calendar />} />
                   <Route path="/pages/faq" element={<FAQ />} />
                   <Route path="/charts/bar" element={<Bar />} />
+                  <Route path="/charts/pie" element={<Pie />} />
                   <Route path="/charts/line" element={<Line />} />
                   <Route path="/charts/geography" element={<Geography />} />
                 </Routes>
