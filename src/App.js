@@ -12,6 +12,7 @@ import Invoices from "./modules/invoices/index";
 import Profile from "./modules/profile/index";
 import Calendar from "./modules/calendar/index";
 import FAQ from "./modules/faq/index";
+import Geography from "./modules/charts/geography/index";
 
 function App() {
     const [theme, colorMode] = useMode();
@@ -32,6 +33,7 @@ function App() {
                   <Route path="/pages/profile" element={<Profile />} />
                   <Route path="/pages/calendar" element={<Calendar />} />
                   <Route path="/pages/faq" element={<FAQ />} />
+                  <Route path="/charts/geography" element={<Geography />} />
                 </Routes>
               </main>
           </div>
