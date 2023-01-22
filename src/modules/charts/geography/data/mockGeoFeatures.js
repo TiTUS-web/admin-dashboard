@@ -1,4 +1,4 @@
-export const geoFeatures = {
+const mockGeoFeatures = {
     type: "FeatureCollection",
     features: [
       {
@@ -13546,4 +13546,6 @@ export const geoFeatures = {
         id: "KOR",
       },
     ],
-  };
+};
+
+export default mockGeoFeatures;
